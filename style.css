@@ -1,0 +1,120 @@
+body {
+    background-color: #f4f7f6;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;}
+
+.container {
+    width: 700px; 
+    margin: 40px auto; }
+
+.card-white {
+    background: white;                    
+    padding: 30px;                             
+    border-radius: 5px;                        
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+.text-center {
+    text-align: center;}
+
+.img-circle {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid black;}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;}
+
+p.text {
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 20px;}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px; }
+
+.button:hover {
+    background-color: blue; }
+
+ul.social-links {
+    list-style-type: none;
+    padding: 0;}
+
+.list-inline {
+    list-style: none; 
+    padding-left: 0px; }
+
+.list-inline > li {
+    display: inline; 
+    padding: 0px 20px; }
+
+ul.social-links li a {
+    font-size: 24px;
+    color: blue;
+    transition: color 0.3s ease;}
+
+ul.social-links li a:hover {
+    color: red;}
+
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px; }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;     }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px; }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 28px; 
+    }
+
+    h2 {
+        font-size: 24px;     }
+
+    p.text {
+        font-size: 16px; 
+    }
+
+    .button {
+        padding: 8px 15px; 
+    }
+
+    ul.social-links li a {
+    font-size: 20px; }}
+
+
